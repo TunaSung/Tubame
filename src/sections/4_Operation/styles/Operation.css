@@ -1,0 +1,269 @@
+/* ------------------- *\
+Content
+\* ------------------- */
+/*
+1. Layout
+2. Title
+3. Step Flow
+        3-1 Step Flow Layout
+        3-2 Icons
+        3-3 Subtitle
+4. Media Queries
+        4-1 w640
+        4-2 w1440
+        4-3 w1920
+*/
+
+/* ------------------- *\
+1. Layout;
+\* ------------------- */
+.operation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 163.92px;
+
+    background-color: var(--tertiary-color);
+}
+.operation__layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 338.81px;
+    height: 124.31px;
+
+}
+
+
+/* ------------------- *\
+2. Title;
+\* ------------------- */
+.operation__title {
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+/* ------------------- *\
+3. Step Flow;
+\* ------------------- */
+/* Step Flow Layout */
+.operation__step-flow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    width: 100%;
+    height: 82.88px;
+}
+.operation__step-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 60.94px;
+    height: 100%;
+}
+
+/* Icons */
+.operation__icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60.94px;
+    height: 60.94px;
+    border-radius: 100%;
+
+    background-color: var(--primary-color);
+}
+.operation__icon {
+    width: 24.22px;
+    height: 24.22px;
+
+    color: var(--tertiary-color);
+}
+.operation__icon.operation__icon--payment {
+    stroke: var(--tertiary-color);
+    stroke-width: 0.49;
+    overflow: visible;
+}
+.operation__icon.operation__icon--evaluate {
+    stroke: var(--tertiary-color);
+    stroke-width: 0.3;
+}
+.operation__arrow {
+    scale: 1.5;
+    padding-bottom: 12px;
+
+    color: var(--primary-color);
+}
+
+/* Subtitle */
+.operation__label {
+    text-align: center;
+
+    width: 100%;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: var(--primary-color);
+}
+.operation__label.operation__label--mobile {
+    display: block;
+}
+.operation__label.operation__label--desktop {
+    display: none;
+}
+
+/* ------------------- *\
+4. Media Queries;
+\* ------------------- */
+/* 4-1 w640 */
+@media (min-width: 640px) {
+    .operation {
+        height: 266px;
+    }
+    .operation__layout {
+        width: 556px;
+        height: 204px;
+    }
+    .operation__title {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .operation__step-flow {
+        height: 136px;
+    }
+    .operation__step-card {
+        width: 100px;
+    }
+    .operation__icon-wrapper {
+        width: 100px;
+        height: 100px;
+    }
+    .operation__icon {
+        width: 40px;
+        height: 40px;
+    }
+    .operation__icon.operation__icon--payment {
+        stroke: var(--secondary-color);
+        stroke-width: 0.8;
+    }
+    .operation__icon.operation__icon--evaluate {
+        stroke: var(--secondary-color);
+        stroke-width: 0.5;
+    }
+    .operation__label {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .operation__arrow {
+        scale: 1.2;
+        padding-bottom: 25px;
+    }
+}
+/* 4-2 w1440 */
+@media (min-width: 1440px) {
+    .operation {
+        height: 540.75px;
+    }
+    .operation__layout {
+        width: 1161.06px;
+        height: 426px;
+    }
+    .operation__title {
+        font-size: 52px;
+        margin-bottom: 48px;
+    }
+    .operation__step-flow {
+        height: 284px;
+        gap: 10px;
+    }
+    .operation__step-card {
+        width: 208.82px;
+    }
+    .operation__icon-wrapper {
+        width: 208.82px;
+        height: 208.82px;
+    }
+    .operation__icon {
+        width: 83px;
+        height: 83px;
+    }
+    .operation__icon.operation__icon--payment {
+        stroke: var(--secondary-color);
+        stroke-width: 0.67;
+
+    }
+    .operation__icon.operation__icon--evaluate {
+        stroke: var(--secondary-color);
+        stroke-width: 0.4;
+    }
+    .operation__label {
+        font-size: 36px;
+        line-height: 43.8px;
+    }
+    .operation__label.operation__label--mobile {
+        display: none;
+    }
+    .operation__label.operation__label--desktop {
+        display: block;
+    }
+    .operation__arrow {
+        scale: 1;
+        padding-bottom: 75px;
+    }
+}
+/* 4-3 w1920 */
+@media (min-width: 1920px) {
+    .operation {
+        height: 721px;
+    }
+    .operation__layout {
+        width: 1548.08px;
+        height: 568px;
+    }
+    .operation__title {
+        font-size: 70px;
+        margin-bottom: 64px;
+    }
+    .operation__step-flow {
+        height: 378.67px;
+    }
+    .operation__step-card {
+        width: 278.43px;
+    }
+    .operation__icon-wrapper {
+        width: 278.43px;
+        height: 278.43px;
+    }
+    .operation__icon {
+        width: 111px;
+        height: 111px;
+    }
+    .operation__icon.operation__icon--payment {
+        stroke: var(--secondary-color);
+        stroke-width: 0.67;
+    }
+    .operation__icon.operation__icon--evaluate {
+        stroke: var(--secondary-color);
+        stroke-width: 0.4;
+    }
+    .operation__label {
+        font-size: 50px;
+        line-height: 58.5px;
+    }
+    .operation__arrow {
+        scale: 1;
+        padding-bottom: 100px;
+    }
+}
