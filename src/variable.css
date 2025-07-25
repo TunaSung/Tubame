@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #9b3b3b;
+  --secondary-color: #EFECE3;
+  --tertiary-color: #fff;
+
+  --brand-bg: url('/bg004.jpg');
+  --brand-image-1: url('/bg001.jpg'); /* w1440 left */
+  --brand-image-2: url('/bg002.jpg'); /* w1440 right-top */
+  --brand-image-3: url('/bg003.jpg'); /* w1440 right-bottom */
+  --brand-copy-color: #333D4A;
+
+  
+  --service-image-1: url('/bg001.jpg');
+  --service-image-2: url('/bg002.jpg');
+  --service-image-3: url('/bg003.jpg');
+  --service-contain-color: #EFECE3;
+
+  --evaluate-avatar-1: url('/bg001.jpg');
+  --evaluate-avatar-2: url('/bg001.jpg');
+  --evaluate-avatar-3: url('/bg001.jpg');
+  --evaluate-avatar-4: url('/bg001.jpg');
+  --evaluate-avatar-5: url('/bg001.jpg');
+  --evaluate-avatar-6: url('/bg001.jpg');
+  --evaluate-avatar-7: url('/bg001.jpg');
+  --evaluate-image-1: url('/bg002.jpg');
+  --evaluate-image-2: url('/bg002.jpg');
+  --evaluate-image-3: url('/bg002.jpg');
+  --evaluate-image-7: url('/bg002.jpg');
+  --evaluate-hint-color: #4F6365;
+
+  --footer-image: url('/bg003.jpg');
+}
