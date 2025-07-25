@@ -17,14 +17,14 @@ function Footer() {
 
                     {/* Start icons */}
                     <div className="footer__socials">
-                        <a href="#!" className="footer__social">
-                            <Facebook className="footer__icon footer__icon--facebook" />
+                        <a href="#!" className="footer__social" target="_blank">
+                            <Facebook className="footer__icon footer__icon--facebook" aria-label="Visit our FB"/>
                         </a>
-                        <a href="#!" className="footer__social">
-                            <Instagram className="footer__icon footer__icon--instagram" />
+                        <a href="#!" className="footer__social" target="_blank">
+                            <Instagram className="footer__icon footer__icon--instagram" aria-label="Visit our IG" />
                         </a>
-                        <a href="#!" className="footer__social">
-                            <Line className="footer__icon footer__icon--line" />
+                        <a href="#!" className="footer__social" target="_blank">
+                            <Line className="footer__icon footer__icon--line" aria-label="Add us on LINE" />
                         </a>
                     </div>
                     {/* End icons */}

@@ -125,6 +125,8 @@ Content
     width: 36px;
     aspect-ratio: 1/1;
     padding-right: 11.45px;
+    background-color: transparent;
+    border: none;
 }
 .navbar__search.navbar__search--desktop {
     display: flex;

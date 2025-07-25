@@ -68,12 +68,6 @@ Content
     width: 100%;
     height: 404.62px;
 }
-.service__card.service__card--mobile {
-    display: block;
-}
-.service__card.service__card--desktop {
-    display: none;
-}
 
 /* ------------------- *\
 4. Card Component;
@@ -229,12 +223,6 @@ Content
         width: 375px;
         height: 528.75px;
         margin-bottom: 0px;
-    }
-    .service__card.service__card--mobile {
-        display: none;
-    }
-    .service__card.service__card--desktop {
-        display: block;
     }
     .service__content {
         height: 100%;
