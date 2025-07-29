@@ -1,6 +1,9 @@
 # 一頁式店家官網
 
-這是一個不限制前端框架的案子 (用的是React)，要求使用 CSS（需遵循 BEM 命名規範），並有 4 個 breakpoint (w375, w640, w1440, w1920) 的 RWD。  
+這是一個不限制前端框架的案子 (我用的是React)，要求使用 CSS（需遵循 BEM 命名規範），並有 4 個 breakpoint (w375, w640, w1440, w1920) 的 RWD。  
+切版本身不難，但因為上半年基本上都用Tailwind Css寫style了，所以問題比較多的是在命名跟可讀性上。  
+  
+圖片案主沒給所以都先隨便放😪  
   
 # 用 swiper.js 做 Carousal ( w375, w1440 )  
 ![header](./readmeImage/w375_brand.png)  
