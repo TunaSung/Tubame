@@ -14,6 +14,6 @@
 ![header](./readmeImage/w375_service.png)  
 ![header](./readmeImage/w1440_service.png)  
   
-# 瀑布流，按下hint用Framer motion製作移動  ( w375, w1440 )  
+# 瀑布流，按下 hint 用 Framer motion 製作移動  ( w375, w1440 )  
 ![header](./readmeImage/w375_evaluate.png)  
 ![header](./readmeImage/w1440_evaluate.png) 
