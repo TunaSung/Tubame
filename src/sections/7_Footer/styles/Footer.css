@@ -79,11 +79,11 @@ Content
 
 /* Icons */
 .footer__icon {
-    scale: 0.6;
-    display: block;
+    transform: scale(0.6);
+    transform-origin: center;
 }
 .footer__icon.footer__icon--line{
-    scale: 0.75;
+    transform: scale(0.75);
 }
 
 /* ------------------- *\
@@ -135,10 +135,10 @@ Content
         height: 45px;
     }
     .footer__icon {
-        scale: 0.55;
+        transform: scale(0.55);
     }
     .footer__icon.footer__icon--line{
-        scale: 0.7;
+        transform: scale(0.7);
     }
 }
 
