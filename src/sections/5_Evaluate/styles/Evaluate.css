@@ -31,7 +31,7 @@ Content
 .evaluate__layout {
     width: 100%;
     height: 100%;
-    padding: 11.38px 12.19px;
+    padding: 11px 12px;
 
     overflow: hidden;
 }
@@ -179,7 +179,7 @@ Content
     gap: 3px;
 
     font-size: 12px;
-    width: 80%;
+    width: 100%;
     line-height: 36.6px;
 
     color: var(--evaluate-hint-color);
