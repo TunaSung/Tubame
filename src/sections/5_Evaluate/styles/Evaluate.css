@@ -171,7 +171,7 @@ Content
 /* ------------------- *\
 4. Button;
 \* ------------------- */
-.evaluate_hint {
+.evaluate__hint {
     display: flex;
     justify-self: center;
     justify-content: center;
@@ -179,7 +179,7 @@ Content
     gap: 3px;
 
     font-size: 12px;
-    width: 30%;
+    width: 80%;
     line-height: 36.6px;
 
     color: var(--evaluate-hint-color);
@@ -199,7 +199,7 @@ Content
     .evaluate__card-list {
         margin: 0 auto;
     }
-    .evaluate_hint {
+    .evaluate__hint {
         display: none;
     }
 }
@@ -271,13 +271,12 @@ Content
     .evaluate__image {
         height: 152px;
     }
-    .evaluate_hint {
+    .evaluate__hint {
         display: flex;
         gap: 7px;
 
         font-size: 20px;
         line-height: 60px;
-        width: 30%;
     }
     .evaluate__arrow {
         font-size: 30px;
@@ -289,7 +288,7 @@ Content
     .evaluate__card-list {
         margin: 0 auto;
     }
-    .evaluate_hint {
+    .evaluate__hint {
         display: none;
     }
 }
@@ -371,12 +370,11 @@ Content
     .evaluate__card--3 .evaluate__image {
         height: 182.25px;
     }
-    .evaluate_hint {
+    .evaluate__hint {
         display: flex;
         gap: 15px;
 
         font-size: 22px;
-        width: 30%;
         line-height: 45px;
         margin-top: 15px;
     }
@@ -390,7 +388,7 @@ Content
     .evaluate__card-list {
         margin: 0 auto;
     }
-    .evaluate_hint {
+    .evaluate__hint {
         display: none;
     }
 }
@@ -472,7 +470,7 @@ Content
     .evaluate__card--3 .evaluate__image {
         height: 243px;
     }
-    .evaluate_hint {
+    .evaluate__hint {
         display: flex;
         gap: 22px;
 
@@ -490,7 +488,7 @@ Content
     .evaluate__card-list {
         margin: 0 auto;
     }
-    .evaluate_hint {
+    .evaluate__hint {
         display: none;
     }
 }

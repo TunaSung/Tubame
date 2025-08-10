@@ -129,7 +129,7 @@ function Evaluate() {
         {/* Start slide toggle button */}
         <button
           onClick={() => setIsSlideRight(!isSlideRight)}
-          className="evaluate_hint"
+          className="evaluate__hint"
           aria-label={
             isSlideRight
               ? "Scroll left to see more"
