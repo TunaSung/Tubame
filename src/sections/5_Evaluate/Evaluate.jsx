@@ -127,33 +127,35 @@ function Evaluate() {
         {/* End evaluate card */}
 
         {/* Start slide toggle button */}
-        <button
-          onClick={() => setIsSlideRight(!isSlideRight)}
-          className="evaluate__hint"
-          aria-label={
-            isSlideRight
-              ? "Scroll left to see more"
-              : "Scroll right to see more"
-          }
-        >
-          {isSlideRight ? (
-            <>
-              向左查看更多
-              <PiArrowLeftLight
-                className="evaluate__arrow"
-                aria-hidden="true"
-              />
-            </>
-          ) : (
-            <>
-              向右查看更多
-              <PiArrowRightLight
-                className="evaluate__arrow"
-                aria-hidden="true"
-              />
-            </>
-          )}
-        </button>
+        <div className="evaluate__btn">
+          <button
+            onClick={() => setIsSlideRight(!isSlideRight)}
+            className="evaluate__hint"
+            aria-label={
+              isSlideRight
+                ? "Scroll left to see more"
+                : "Scroll right to see more"
+            }
+          >
+            {isSlideRight ? (
+              <>
+                向左查看更多
+                <PiArrowLeftLight
+                  className="evaluate__arrow"
+                  aria-hidden="true"
+                />
+              </>
+            ) : (
+              <>
+                向右查看更多
+                <PiArrowRightLight
+                  className="evaluate__arrow"
+                  aria-hidden="true"
+                />
+              </>
+            )}
+          </button>
+        </div>
         {/* End slide toggle button */}
       </div>
     </section>
