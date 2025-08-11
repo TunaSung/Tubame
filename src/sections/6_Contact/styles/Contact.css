@@ -88,12 +88,6 @@ Content
 }
 
 /* 3-4 Button */
-.contact__button.contact__button--mobile {
-    display: flex;
-}
-.contact__button.contact__button--desktop {
-    display: none;
-}
 .contact__button {
     display: flex;
     justify-content: center;
@@ -189,12 +183,6 @@ Content
     .contact__form textarea {
         height: 195.75px;
         padding-top: 15px;
-    }
-    .contact__button.contact__button--mobile {
-        display: none;
-    }
-    .contact__button.contact__button--desktop {
-        display: flex;
     }
     .contact__button {
         height: 67.5px;

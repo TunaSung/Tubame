@@ -1,5 +1,7 @@
-// hook
+// Library & hook
 import { useState } from "react";
+import { useMediaQuery } from "react-responsive";
+
 
 // component
 import ScrollTop from "./components/features/ScrollTop";
@@ -12,6 +14,9 @@ function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [msg, setMsg] = useState("");
+
+  // Media query breakpoints
+  const isBelow1440 = useMediaQuery({ maxWidth: 1440 })
 
   // Input change handlers
   const toggleName = (e) => setName(e.target.value);
@@ -65,18 +70,21 @@ function Contact() {
             aria-label="訊息內容"
           />
           {/* Start submit btn */}
-          <button
-            className="contact__button contact__button--mobile"
-            type="submit"
-          >
-            確認
-          </button>
-          <button
-            className="contact__button contact__button--desktop"
-            type="submit"
-          >
-            送出
-          </button>
+          {isBelow1440 ? 
+            <button
+              className="contact__button contact__button--mobile"
+              type="submit"
+            >
+              確認
+            </button>
+            :
+            <button
+              className="contact__button contact__button--desktop"
+              type="submit"
+            >
+              送出
+            </button>
+          }
           {/* End submit btn */}
         </form>
         {/* End form */}
