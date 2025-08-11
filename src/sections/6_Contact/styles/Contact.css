@@ -95,12 +95,13 @@ Content
 
     width: 100%;
     height: 24.38px;
-    font-size: 12px;
-    border-radius: 6.09px;
-    margin-top: 9.62px;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 6px;
+    margin-top: 10px;
 
     border: none;
-    color: var(#000);
+    color: #000;
     background-color: var(--tertiary-color);
 }
 
