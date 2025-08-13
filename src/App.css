@@ -8,6 +8,7 @@ Globel;
 * {
     box-sizing: border-box;
     position: relative;
+    scroll-behavior: smooth;
     /* border: 1px solid #000; */
 }
 html,body {
